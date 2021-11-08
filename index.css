@@ -1,0 +1,105 @@
+:root {
+    --container-puseudo-h: 100px;
+    --block-clip-px: 64px;
+}
+
+#container_title {
+    background-image: url(/images/fuji_1.jpg);
+    background-position: center;
+}
+
+#container1 {
+    background-color: rgb(255, 255, 255);
+}
+
+#container1 .contents_CenterCenter {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#container1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: var(--container-puseudo-h);
+    top: Calc(-1 * (var(--container-puseudo-h) - 5px));
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(0 0, 100% var(--block-clip-px), 100% 100%, 0 100%);
+}
+
+#container1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: var(--container-puseudo-h);
+    bottom: Calc(-1 * (var(--container-puseudo-h) - 5px));
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(0 0, 100% 0, 100% Calc(100% - var(--block-clip-px)), 0 100%);
+}
+
+.description {
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+#container1 > .contents_CenterCenter {
+    min-height: auto;
+}
+
+.contents_bg:not(:last-child) {
+    margin-bottom: 64px;
+}
+
+.contents_bg {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: var(--block-clip-px);
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.desc_flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc_flex .linkbutton {
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: rgba(50,180, 120, 0.75);
+    position: relative;
+}
+
+.clip-1 {
+    background-image: url(/images/earth_1.jpg);
+    clip-path: polygon(0 0, 100% var(--block-clip-px), 100% Calc(100% - var(--block-clip-px)), 0 100%);
+    align-items: flex-start;
+}
+
+.clip-2 {
+    background-image: url(/images/sunrise_2.jpg);
+    clip-path: polygon(0 var(--block-clip-px), 100% 0, 100% 100%, 0 Calc(100% - var(--block-clip-px)));
+    align-items: flex-end;
+}
+
+.clip-3 {
+    background-image: url(/images/puzzle_2.jpg);
+    clip-path: polygon(0 0, 100% var(--block-clip-px), 100% Calc(100% - var(--block-clip-px)), 0 100%);
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 950px) {
+    :root {
+        --container-puseudo-h: 100px;
+        --block-clip-px: 32px;
+    }
+}

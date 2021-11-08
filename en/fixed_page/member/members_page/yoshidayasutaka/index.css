@@ -1,0 +1,47 @@
+html {
+  background-image: url(https://pbs.twimg.com/profile_images/1367152053605134340/TbRfFsZi_400x400.jpg);
+  background-position: right 0% bottom 0%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+#page {
+  display: flow-root;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 4em;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+#contents {
+  letter-spacing: -1em;
+}
+
+.content {
+  letter-spacing: 0em;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.long {
+  line-height: 150%;
+}
+
+.embed {
+  width: 80%;
+}
+
+#myicon {
+  display: inline-block;
+  width: 20em;
+  max-width: 60%;
+}

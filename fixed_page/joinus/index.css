@@ -1,0 +1,29 @@
+#container_title {
+    background-image: url(/images/puzzle_1.jpg);
+}
+
+#container1 {
+    min-height: auto;
+    background-color: rgb(100, 120, 255);
+}
+
+#container2 {
+    background: linear-gradient(-135deg, var(--trendcreate-color), rgb(25, 90, 60));
+}
+
+#container3 {
+    background-image: url(/images/mailbox_1.jpg);
+}
+
+#joinMail {
+    background: linear-gradient(-135deg, rgb(25, 90, 60) 50px, var(--trendcreate-color) 250px);
+    background-size:200px 300px;
+    margin: 16px;
+    padding: 16px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#joinMail:hover {
+    background-position:0 100%;
+}

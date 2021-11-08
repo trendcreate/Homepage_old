@@ -1,0 +1,35 @@
+#container_title {
+    background-image: url(/images/question-mark_1.jpg);
+}
+
+#container1 {
+    background-image: url(/images/mailbox_1.jpg);
+}
+
+.contact {
+    background: linear-gradient(-135deg, rgb(25, 90, 60) 50px, var(--trendcreate-color) 250px);
+    background-size:auto 250px;
+    margin: 16px;
+    padding: 16px;
+    transition: 0.5s;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+}
+
+.contact:hover {
+    background-position:0 100%;
+}
+
+.googleform_block {
+    height: 500px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.googleform {
+    width: 100%;
+    height: 1757.560px;
+    border: none;
+}

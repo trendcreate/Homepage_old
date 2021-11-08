@@ -1,0 +1,90 @@
+.contents_CenterTop {
+    background-color: rgb(255, 255, 255);
+}
+
+#container_title {
+    background-image: url(/images/server_1.jpg);
+}
+
+.service {
+    height: 525px;
+    width: 320px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    transition: 0.25s;
+    position: relative;
+}
+
+.service:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.service * {
+    color: rgb(0, 0, 0);
+}
+
+.service_list {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.service:not(:last-child) {
+    margin-right: 64px;
+}
+
+.serviceTitle {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceTitle a::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.ser_icon{
+    width: 100%;
+}
+
+.ser_description {
+    width: Calc(100% - 48px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.serviceButton {
+    position: absolute;
+    bottom: 16px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceButton a {
+    z-index: 2;
+    transition: 0.25s;
+}
+
+.serviceButton a:hover {
+    transform: scale(1.15);
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.46978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path833"
+       width="132.29169"
+       height="18.898809"
+       x="-1.4210855e-14"
+       y="56.696426"
+       d="M 2.6458333,56.696426 H 129.64585 a 2.6458333,2.6458333 45 0 1 2.64584,2.645834 v 13.607143 a 2.6458333,2.6458333 135 0 1 -2.64584,2.645833 H 2.6458333 A 2.6458333,2.6458333 45 0 1 0,72.949403 V 59.34226 a 2.6458333,2.6458333 135 0 1 2.6458333,-2.645834 z" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.46978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path855"
+       width="132.29169"
+       height="18.898809"
+       x="-1.4210855e-14"
+       y="-2.8610229e-06"
+       d="M 2.6458333,-2.8610229e-6 H 129.64585 A 2.6458333,2.6458333 45 0 1 132.29169,2.6458304 V 16.252973 a 2.6458333,2.6458333 135 0 1 -2.64584,2.645834 l -127.0000167,0 A 2.6458333,2.6458333 45 0 1 0,16.252973 V 2.6458304 A 2.6458333,2.6458333 135 0 1 2.6458333,-2.8610229e-6 Z" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.46978;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path859"
+       width="132.29169"
+       height="18.898809"
+       x="-1.4210855e-14"
+       y="113.39287"
+       d="M 2.6458333,113.39287 H 129.64585 a 2.6458333,2.6458333 45 0 1 2.64584,2.64583 v 13.60714 a 2.6458333,2.6458333 135 0 1 -2.64584,2.64584 H 2.6458333 A 2.6458333,2.6458333 45 0 1 0,129.64584 V 116.0387 a 2.6458333,2.6458333 135 0 1 2.6458333,-2.64583 z" />
+  </g>
+</svg>

@@ -1,0 +1,152 @@
+/* header */
+
+header {
+    width: Calc(100% - 100px);
+    height: 50px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+nav {
+    font-size: 0;
+    transform: translateX(0);
+}
+
+nav a {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+nav a:not(:last-child)::after {
+    content: '';
+    border-right: 1px solid var(--text-color);
+    position: relative;
+    left: 18px;
+}
+
+#local_links .languages,
+#local_links > .languages a {
+    border: none;
+    padding: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.languages {
+    margin-left: 16px;
+}
+
+.languages > * {
+    font-size: 14px;
+}
+
+
+#menuButton {
+    display: none;
+}
+
+a,
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1115px) {
+    #menuButton {
+        cursor: pointer;
+        background: none;
+        border: none;
+        transition: 0.75s;
+        width: 32px;
+        height: 32px;
+    }
+
+    #menuButton_svg {
+        pointer-events: none;
+    }
+
+    nav {
+        position: fixed;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.25);
+        transform: translateX(200px);
+        transition: transform 0.5s;
+        z-index: 10;
+
+    }
+
+    nav a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav a:not(:last-child)::after{
+        display: none;
+    }
+
+    .languages {
+        margin-left: 0;
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .languages > * {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .languages > a:not(:last-child)::after {
+        display: inline;
+        content: '';
+        position: relative;
+    }
+
+    #menuButton {
+        display: block;
+    }
+
+    #nav_bg {
+        background-color: rgba(0, 0, 0, 0.75);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9;
+        opacity: 0;
+        transition: 0.5s;
+        visibility: hidden;
+        z-index: 5;
+    }
+
+    .navAni {
+        transform: translateX(0px);
+    }
+
+    .nav_bgAni {
+        opacity: 1;
+    }
+}
+
+/* -------------------------------- */
